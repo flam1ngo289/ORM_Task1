@@ -109,7 +109,6 @@ int main() {
 		s.mapClass<Shop>("shop");
 		s.mapClass<Stock>("stock");
 
-		s.dropTables();
 		s.createTables();
 		Wt::Dbo::Transaction t(s);
 
